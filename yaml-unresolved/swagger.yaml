@@ -2,7 +2,7 @@ openapi: 3.0.0
 # Added by API Auto Mocking Plugin
 servers:
   - description: SwaggerHub API Auto Mocking
-    url: https://virtserver.swaggerhub.com/energiesprong/user/0.0.1
+    url: https://virtserver.swaggerhub.com/energiesprong/user/0.0.2
 info:
   version: "0.0.2"
   title: Stroomversnelling UDB Resource Server API
