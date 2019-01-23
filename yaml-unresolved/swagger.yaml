@@ -46,7 +46,8 @@ paths:
           description: OK
           content:
             application/json:
-              schema: "#/components/schemas/pdbUrlList"
+              schema:
+                $ref: "#/components/schemas/pdbUrlList"
 components:
   schemas:
     contract:
