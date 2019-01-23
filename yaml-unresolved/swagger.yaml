@@ -28,7 +28,7 @@ paths:
     get:
       summary: Get all connections
       description:
-        A list of all connections. Connections are devices/locations with data to which a user has a contract. A PDB token will limit results to connection_ids associated with that PDB.
+        A list of all connections. Connections are devices/locations with data to which a user has a contract. A PDB token will limit results to connectionIds associated with that PDB.
       responses:
         '200':
           description: OK
@@ -79,7 +79,7 @@ components:
           readOnly: true
         pdbUrl:
           type: string
-          description: the URL of the PDB resource server associated with this connection_id
+          description: the URL of the PDB resource server associated with this connectionId
           readOnly: true
         address:
           type: string
@@ -88,7 +88,7 @@ components:
     pdbUrlList:
       type: array
       items:
-        $ref: "#components/schemas/connection/pdbUrl"
+        $ref: "#components/schemas/connection/properties/pdbUrl"
     connectionList:
       type: array
       items:
