@@ -85,11 +85,11 @@ components:
         address:
           type: string
           description: the location / address of the connection
-          readOnly: 
+          readOnly: true
     pdbUrlList:
       type: array
       items:
-        $ref: "#components/schemas/connection/properties/pdbUrl"
+        $ref: "#/components/schemas/connection/properties/pdbUrl"
     connectionList:
       type: array
       items:
