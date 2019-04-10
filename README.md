@@ -13,6 +13,7 @@ There are several components of this repo:
 ## What is NOT in this repo  
 Some things that might be very useful for you that are not here, are:
 
+- The [UDB test resource server] (https://github.com/Stroomversnelling/monitoring_udb_resource_server)
 - CI integration
 - Swagger Editor integration
 
